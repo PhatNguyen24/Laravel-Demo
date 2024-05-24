@@ -25,6 +25,5 @@ Hôm nay, tôi sẽ giới thiệu về một trong những framework phổ bi�
 
 ### Screenshot Màn Hình Chạy Project
 
-![Laravel Project Screenshot]
 <img src="https://github.com/PhatNguyen24/Laravel-Demo/blob/main/img/laravel.jpg" style="width:90%;height:90%;">
 
