@@ -1,24 +1,17 @@
-<!-- resources/views/login.blade.php -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Login</title>
 </head>
 <body>
-    <h1>Login</h1>
-    @if(session('error'))
-        <p style="color: red;">{{ session('error') }}</p>
-    @endif
-    <form action="/login" method="POST">
+    <h1>Login Page</h1>
+    <!-- Form đăng nhập -->
+    <form method="POST" action="{{ route('login') }}">
         @csrf
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
         <button type="submit">Login</button>
     </form>
 </body>

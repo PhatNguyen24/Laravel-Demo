@@ -1,66 +1,29 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Hôm nay, tôi sẽ giới thiệu về một trong những framework phổ biến và mạnh mẽ trong cộng đồng PHP - Laravel. Laravel là một framework PHP mã nguồn mở được phát triển bởi Taylor Otwell và được ra mắt vào năm 2011. Nó cung cấp một mô hình phát triển ứng dụng web MVC (Model-View-Controller) dễ hiểu, cùng với nhiều tính năng mạnh mẽ như hệ thống routing mạnh mẽ, Eloquent ORM, Blade template engine, Middleware, Authentication, và nhiều tính năng khác.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Các Bước Cài Đặt Laravel
 
-## About Laravel
+1. **Yêu Cầu Hệ Thống**: Trước hết, đảm bảo rằng hệ thống của bạn đáp ứng được các yêu cầu của Laravel. Laravel yêu cầu PHP phiên bản 7.4 trở lên và một số extension PHP cụ thể. Bạn cũng cần cài đặt Composer - một công cụ quản lý phụ thuộc PHP.
+   
+2. **Cài Đặt Composer**: Composer là một công cụ quản lý phụ thuộc PHP và được sử dụng rộng rãi trong cộng đồng Laravel. Bạn có thể cài đặt Composer bằng cách truy cập trang web chính thức của Composer và làm theo hướng dẫn cài đặt cho hệ điều hành của bạn.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+3. **Cài Đặt Laravel**: Sau khi cài đặt Composer, bạn có thể sử dụng Composer để tạo một dự án Laravel mới. Mở terminal hoặc command prompt và chạy lệnh sau:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    ```bash
+    composer create-project --prefer-dist laravel/laravel project-name
+    ```
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    Trong đó `project-name` là tên bạn muốn đặt cho dự án của mình.
 
-## Learning Laravel
+4. **Chạy Ứng Dụng**: Sau khi cài đặt xong, bạn có thể chạy ứng dụng Laravel bằng cách sử dụng lệnh `php artisan serve`:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    ```bash
+    cd project-name
+    php artisan serve
+    ```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    Bây giờ, bạn có thể truy cập ứng dụng của mình tại `http://localhost:8000`.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Screenshot Màn Hình Chạy Project
 
-## Laravel Sponsors
+![Laravel Project Screenshot](https://drive.google.com/file/d/1tMPNPyqq4u0LHgAirg4Y-dZ56Yi5VaQD/view?usp=sharing)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

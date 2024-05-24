@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProductController;
 
-Route::get('/login', [AuthController::class, 'showLoginForm']);
-Route::post('/login', [AuthController::class, 'login']);
+Route::get('/', [AuthController::class, 'showLoginForm'])->name('login');
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::get('/products', [ProductController::class, 'showProducts'])->name('products');

@@ -1,19 +1,16 @@
-<!-- resources/views/products.blade.php -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Products</title>
 </head>
 <body>
-    <h1>Products</h1>
+    <h1>Products Page</h1>
+    <!-- Hiển thị danh sách sản phẩm -->
     <ul>
-        @foreach ($products as $product)
-            <li>
-                <strong>{{ $product->name }}</strong><br>
-                {{ $product->description }}<br>
-                ${{ $product->price }}<br>
-            </li>
-        @endforeach
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
+        <!-- Thêm các sản phẩm khác tại đây -->
     </ul>
 </body>
 </html>
