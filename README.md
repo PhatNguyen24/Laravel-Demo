@@ -25,5 +25,5 @@ Hôm nay, tôi sẽ giới thiệu về một trong những framework phổ bi�
 
 ### Screenshot Màn Hình Chạy Project
 
-![Laravel Project Screenshot](https://drive.google.com/file/d/1tMPNPyqq4u0LHgAirg4Y-dZ56Yi5VaQD/view?usp=sharing)
+![Laravel Project Screenshot](https://ibb.co/KqDcM3d)
 
